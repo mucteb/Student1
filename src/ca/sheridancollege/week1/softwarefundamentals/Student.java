@@ -12,6 +12,30 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class Student {
     
     private String name;
+    private double GPA;
+    private String email;
+    private String lastname;
+    private String GSM;
+
+    public String getGSM()
+    {
+        return GSM;
+    }
+
+    public void setGSM(String GSM)
+    {
+        this.GSM = GSM;
+    }
+
+    public String getLastname()
+    {
+        return lastname;
+    }
+
+    public void setLastname(String lastname)
+    {
+        this.lastname = lastname;
+    }
 
     /**
      * Get the value of name
@@ -29,6 +53,30 @@ public class Student {
      */
     public void setName(String name) {
         this.name = name;
+    }
+
+    /**
+     * @param email the email to set
+     */
+    public void setEmail(String email)
+    {
+        this.email = email;
+    }
+
+    /**
+     * @return the GPA
+     */
+    public double getGPA()
+    {
+        return GPA;
+    }
+
+    /**
+     * @param GPA the GPA to set
+     */
+    public void setGPA(double GPA)
+    {
+        this.GPA = GPA;
     }
 
 }
