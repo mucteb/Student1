@@ -10,8 +10,23 @@ package ca.sheridancollege.week1.softwarefundamentals;
  * @author sidhu376
  */
 public class StudentList {
+    String StudentStore;
+
+    public String getStudentStore()
+    {
+        return StudentStore;
+    }
+
+    public void setStudentStore(String StudentStore)
+    {
+        this.StudentStore = StudentStore;
+    }
+    
     
     public static void main(String[] args) {
+        
+        
+        
         
         Student [] sList= new Student[5];
         
